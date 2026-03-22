@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* Optional: Set a professional background color for the whole app here */
+@theme {
+   --color-background: #f8fafc;
+}
+
+body {
+   background-color: var(--color-background);
+   font-family:
+      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+      sans-serif;
+}
